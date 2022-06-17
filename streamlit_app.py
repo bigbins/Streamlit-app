@@ -28,7 +28,7 @@ def cartoonize_image(img, gray_mode = False):
         return cv2.cvtColor(cartoonized, cv2.COLOR_BGR2GRAY)
     return cartoonized
 
-st.title('使用OpenCV对图片进行漫化处理')
+st.title('Bin：使用OpenCV对图片进行漫化处理')
 
 img_file_buffer = st.file_uploader("上传图片", type=[ "jpg", "jpeg",'png'])
 
